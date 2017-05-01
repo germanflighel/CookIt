@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/text_shadow_white"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rankeá la receta"
+        android:textColor="@color/colorAccent"
+        android:layout_gravity="center"
+        android:layout_marginTop="40sp"
+        android:textSize="24sp"/>
+
+    <RatingBar
+
+        android:layout_marginTop="10dp" android:layout_marginBottom="10sp"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:clickable="true"
+        android:id="@+id/dialog_ratingbar" android:layout_gravity="center"
+        android:numStars="5" android:stepSize="1.0" android:rating="0"
+        android:isIndicator="false"/>
+
+    <Button
+        android:id="@+id/enviarRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar!"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:padding="20sp"
+        />
+
+</LinearLayout>
